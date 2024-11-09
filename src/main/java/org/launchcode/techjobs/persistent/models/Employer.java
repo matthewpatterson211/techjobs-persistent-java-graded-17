@@ -17,4 +17,10 @@ public class Employer extends AbstractEntity {
     public @NotBlank @Size(min = 3, max = 100) String getLocation() {
         return location;
     }
+
+    public void setLocation(@NotBlank @Size(min = 3, max = 100) String location) {
+        this.location = location;
+    }
+
+
 }
